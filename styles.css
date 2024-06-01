@@ -1,0 +1,60 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+}
+
+table tr td {
+  padding: 5px;
+}
+table {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgb(182, 188, 188);
+}
+input[type="button"] {
+  width:100%;
+  padding: 20px 40px;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="button"][value="C"],
+input[type="button"][value="◄"] {
+  background-color: rgb(216, 122, 28);
+}
+
+input[type="button"]:hover{
+  background-color: rgb(75, 151, 93);
+}
+input[type="button"]:active{
+background-color: rgb(23, 94, 40);
+}
+input[type="button"][value="C"]:hover,
+input[type="button"][value="◄"]:hover {
+  background-color: rgb(216, 122, 28, 0.7);
+}
+input[type="button"][value="C"]:active
+input[type="button"][value="◄"]:active {
+  background-color: rgb(147, 79, 11);
+}
+input[type="text"] {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 83.5%;
+}
